@@ -15,12 +15,12 @@ To get started, follow the instructions below to set up your environment.
 
 ## Directory Structure
 
-The application resides in the `compliance-checklist` directory, which contains two main subfolders:
+The application resides in the `complyRepo` directory, which contains two main subfolders:
 
 - **API**: Houses the .NET backend.
     - **src**: The source code for the API.
     - **tests**: Contains tests for the API.
-- **Compliance.UI**: Contains the Angular front end.
+- **ClientUI**: Contains front end.
 
 ## Building and Running the API
 0. Clone this repository.
@@ -49,7 +49,7 @@ The application resides in the `compliance-checklist` directory, which contains 
 
 1. Navigate to the UI directory:
     ```bash
-    cd /Compliance.UI
+    cd /ClientUI
     ```
 
 

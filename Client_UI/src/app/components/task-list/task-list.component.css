@@ -1,0 +1,114 @@
+.container {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333; 
+} 
+
+.task-id{
+    color: rgb(81, 81, 125);
+}
+
+.length-design{
+    background-color: rgb(130, 112, 211);
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 10px
+}
+
+/* Low Priority */
+[Priority="Low"] {
+    color: #fff;
+    background-color: #4CAF50 !important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+    width: 80px;
+    border-radius: 60px;
+    margin-top: 10px;
+   
+}
+
+/* Medium Priority */
+[Priority="Medium"] {
+    color: #fff;;
+    background-color: #FFC107 !important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+    width: 80px;
+    border-radius: 60px;
+    margin-top: 10px;
+}
+
+/* High Priority */
+[Priority="High"] {
+    color: #fff;
+    background-color: #f44336 !important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+    width: 80px;
+    border-radius: 60px;
+    margin-top: 10px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead {
+    background-color: #f0f0f0; 
+}
+
+.table thead th {
+    padding: 15px;
+    border-bottom: 2px solid #d4d4d4;
+    color: #555; 
+    text-transform: uppercase; 
+    font-size: 0.9em;
+}
+
+.table tbody tr:hover {
+    background-color: #e7e7e7;
+}
+
+.table tbody td {
+    padding: 10px 15px;
+    color: #666; 
+    border-bottom: 1px solid #d4d4d4; 
+}
+
+.btn {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 600; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+.btn-danger {
+    background-color: #f44336; 
+    color: white;
+}
+
+.date-design{
+    color: rgb(117, 117, 177) !important;
+}

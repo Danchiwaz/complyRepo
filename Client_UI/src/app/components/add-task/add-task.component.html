@@ -1,0 +1,48 @@
+<form [formGroup]="taskForm" (ngSubmit)="onSubmit()">
+  <h3 class="mb-4 text-center" style="white-space: nowrap; font-size: 1.2rem">
+    Please Add an ItemService
+  </h3>
+
+  <div>
+    <label>Category:</label>
+    <select formControlName="category" class="form-select">
+      <option *ngFor="let category of CategoryEnum" [value]="category">
+        {{ category }}
+      </option>
+    </select>
+  </div>
+
+  <div>
+    <label>Description:</label>
+    <input type="text" formControlName="description" class="form-control" />
+  </div>
+
+  <div>
+    <label>Due Date:</label>
+    <input type="date" formControlName="dueDate" class="form-control"  />
+  </div>
+
+  <div>
+    <label>Priority:</label>
+    <select formControlName="priority" >
+      <option *ngFor="let priority of PriorityEnum" [value]="priority">
+        {{ priority }}
+      </option>
+    </select>
+  </div>
+
+  <div>
+    <label>Status:</label>
+    <select formControlName="status" class="form-select">
+      <option *ngFor="let status of StatusEnum" [value]="status">
+        {{ status }}
+      </option>
+    </select>
+  </div>
+
+  <div class="d-flex justify-content-between">
+    <button type="submit">Submit</button>
+    <button (click)="closeModal()">Close</button>
+  </div>
+  <p-toast key="toast1"></p-toast>
+</form>

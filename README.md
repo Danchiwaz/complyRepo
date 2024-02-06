@@ -1,17 +1,15 @@
-# Compliance Checklist Application
+# Track Items Application
 
-This document provides a step-by-step guide on how to build and run the Compliance Checklist application. The application consists of two main parts: an API developed in .NET and a UI built with Angular.
-## About the Compliance Checklist Application
+This documentation will guide you on how to run  both the front end and the backend
+## The application keeps track of the items that need to be accomplished and their priority and progress.
 
-The **Compliance Checklist** is a simple application that allows users to visualize compliance tasks.
 
-### Tech Stack Overview:
 
-- **Frontend:** Developed using Angular, the frontend showcases a dynamic list of ItemServices and an interactive form that facilitates the addition of new ItemServices. The styling is done with bootstrap.
+### Project Technoliges Overview:
+
+- **Client_UI:** Developed using Angular and for styling PRIMENG and bootstrap.
 
 - **Backend:** Built with .NET 7 and ASP.NET core.
-
-## NB: The Docker setup is not fully configured.
 
 To get started, follow the instructions below to set up your environment.
 

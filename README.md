@@ -65,18 +65,4 @@ The application resides in the `complyRepo` directory, which contains two main s
 
 The application should now be running locally. Open a browser and navigate to `http://localhost:4200` to access the UI, and the API will be available at `http://localhost:5000`.
 
-## Running the Tests
 
-### API Tests
-
-To run the tests for the `API`:
-
-1. Navigate to the `tests` folder inside `API`:
-    ```bash
-    cd complyRepo/API/tests
-    ```
-
-2. Run the tests using the `dotnet test` command:
-    ```bash
-    dotnet test
-    ```

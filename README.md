@@ -73,7 +73,7 @@ To run the tests for the `API`:
 
 1. Navigate to the `tests` folder inside `API`:
     ```bash
-    cd compliance-checklist/API/tests
+    cd complyRepo/API/tests
     ```
 
 2. Run the tests using the `dotnet test` command:
